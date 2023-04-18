@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 5aad3b57b1f497f4aa9abafa29c7822b
+  - enabled: 1
+    path: Assets/Scenes/Narrativa1.unity
+    guid: f37683ccf3af08546842bd329c41ce48
+  - enabled: 1
+    path: Assets/Scenes/Pueblo.unity
+    guid: f3966613bf5c09a4c932434f5dd30701
+  - enabled: 1
+    path: Assets/Scenes/Juego.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  m_configObjects: {}
