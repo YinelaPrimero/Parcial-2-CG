@@ -2117,6 +2117,7 @@ MonoBehaviour:
   battleManager: {fileID: 0}
   rivales: []
   animator: {fileID: 212939636}
+  EnemigoAtacar: {fileID: 1655171101}
 --- !u!1 &214089076
 GameObject:
   m_ObjectHideFlags: 0
@@ -7429,6 +7430,7 @@ MonoBehaviour:
   battleManager: {fileID: 0}
   rivales: []
   animator: {fileID: 932334477}
+  EnemigoAtacar: {fileID: 1655171101}
 --- !u!1 &940576993
 GameObject:
   m_ObjectHideFlags: 0
@@ -9381,6 +9383,7 @@ MonoBehaviour:
   battleManager: {fileID: 0}
   rivales: []
   animator: {fileID: 1194733728}
+  EnemigoAtacar: {fileID: 1655171101}
 --- !u!1 &1195190358
 GameObject:
   m_ObjectHideFlags: 0
@@ -11216,6 +11219,7 @@ MonoBehaviour:
   battleManager: {fileID: 0}
   rivales: []
   animator: {fileID: 1455097470}
+  EnemigoAtacar: {fileID: 1655171101}
 --- !u!1 &1459225718
 GameObject:
   m_ObjectHideFlags: 0

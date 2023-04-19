@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Habilidad : MonoBehaviour
 {
+    
     [SerializeField] private Personaje personaje;
     [SerializeField] private int indexDado1, indexDado2;
     [SerializeField] private List<Personaje> habilityTarget;
