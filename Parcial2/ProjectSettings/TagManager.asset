@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Portal
+  - Escapulario
+  - Dinero
+  - Pocion
+  - Arma
+  - Cofre
   layers:
   - Default
   - TransparentFX
