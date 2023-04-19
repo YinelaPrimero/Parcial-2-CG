@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Inventario1 : MonoBehaviour
+public class Inventario : MonoBehaviour
 {
    public List<Text> textos = new List<Text>();
     public List<GameObject> item = new List<GameObject>();
