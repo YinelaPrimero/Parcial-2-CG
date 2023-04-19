@@ -7,7 +7,7 @@ public class Boton : MonoBehaviour
 {
     public Personaje personaje;
     public int index;
-    private string trigger = "attack";
+    private string trigger = "atack";
 
     // Start is called before the first frame update
     void Start()

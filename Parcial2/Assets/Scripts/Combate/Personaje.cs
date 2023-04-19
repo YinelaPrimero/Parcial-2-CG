@@ -86,10 +86,6 @@ public class Personaje : MonoBehaviour
         {
             CambiarAnimacion("death");
         }
-        else if (this is Enemigo)
-        {
-          //  GetComponent<Enemigo>().SoltarDrop();
-        }
         
         isDead = true;
     }
