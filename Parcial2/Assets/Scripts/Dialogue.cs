@@ -27,7 +27,7 @@ public class Dialogue : MonoBehaviour
    private void Start(){
         AudioSource=GetComponent<AudioSource>();
         AudioSource.clip=npcVoz;
-        StartDialogue();
+        
    }
 
 
@@ -37,7 +37,7 @@ public class Dialogue : MonoBehaviour
         {
             if (!didDialogueStart)
             {
-                
+                StartDialogue();
             }
             else if(dialogueText.text == dialogueLines[lineIndex])
             {
