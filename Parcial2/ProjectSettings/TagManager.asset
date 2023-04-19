@@ -12,6 +12,7 @@ TagManager:
   - Cofre
   - Dinero3
   - Dinero4
+  - Enemigo
   layers:
   - Default
   - TransparentFX

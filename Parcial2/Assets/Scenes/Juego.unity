@@ -1709,6 +1709,61 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171202607}
   m_CullTransparentMesh: 1
+--- !u!1 &185042735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 185042737}
+  - component: {fileID: 185042736}
+  m_Layer: 0
+  m_Name: Batalla
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &185042736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185042735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5274d5daa505b4e843666ae9670af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Heroe1: {fileID: 1455097475}
+  Heroe2: {fileID: 212939642}
+  Heroe3: {fileID: 1194733732}
+  Heroe4: {fileID: 932334481}
+  listaHeroesEnBatalla: []
+  listaEnemigosEnBatalla: []
+  mensaje1: {fileID: 1142442492}
+  mensaje2: {fileID: 1149182367}
+  mensaje3: {fileID: 1029786516}
+  turno: 0
+  isWinner: 0
+--- !u!4 &185042737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185042735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.938682, y: -0.9035531, z: 1101798.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &212939633
 GameObject:
   m_ObjectHideFlags: 0
@@ -11926,7 +11981,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1655171094
 Transform:
   m_ObjectHideFlags: 0
