@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 35a507b4bd71c914fb2dd1bbe25c600b
+guid: 6fd294476e55e5440bf882929ee3d60d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,22 +105,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Inventario-removebg-preview_0
+      name: 2211.w030.n003.493B.p1.493-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 182
-        y: 223
-        width: 112
-        height: 31
+        x: 48
+        y: 51
+        width: 132
+        height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f051c288919e6ff4eb9a7540b1d83e3f
-      internalID: -10122201
+      spriteID: 505b738675046df4b9d7005df2f4d752
+      internalID: -328257554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2211.w030.n003.493B.p1.493-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 41
+        width: 102
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7880c9fa6a104d4b9417ad69b94e2b9
+      internalID: 611992319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2211.w030.n003.493B.p1.493-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 57
+        width: 125
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c8de8feb558f042b67c77da481cbc6
+      internalID: 1207894878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2211.w030.n003.493B.p1.493-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 53
+        width: 145
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a08c05f0663df4486338a9235119bb
+      internalID: 2045400030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2211.w030.n003.493B.p1.493-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 57
+        width: 124
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45812ff0f1dfe543a6cbd10cade689c
+      internalID: -153651419
       vertices: []
       indices: 
       edges: []
@@ -136,7 +220,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Inventario-removebg-preview_0: -10122201
+      2211.w030.n003.493B.p1.493-removebg-preview_0: -328257554
+      2211.w030.n003.493B.p1.493-removebg-preview_1: 611992319
+      2211.w030.n003.493B.p1.493-removebg-preview_2: 1207894878
+      2211.w030.n003.493B.p1.493-removebg-preview_3: 2045400030
+      2211.w030.n003.493B.p1.493-removebg-preview_4: -153651419
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
