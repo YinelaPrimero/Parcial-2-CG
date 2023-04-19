@@ -8,15 +8,16 @@ using UnityEngine.UI;
 
 public class BattleManager : MonoBehaviour
 {
-    //Se deben a�adir los heroes, el enemigo
-    //public GameObject enemySlot;
     public Heroe Heroe1;
     public Heroe Heroe2;
     public Heroe Heroe3;
     public Heroe Heroe4;
-    public List<Heroe> listaHeroesEnBatalla = new List<Heroe>();
-    public List<Enemigo> listaEnemigosEnBatalla = new List<Enemigo>();
+
+    public List<Heroe> listaHeroes = new List<Heroe>();
+    public List<Enemigo> listaEnemigos = new List<Enemigo>();
+
     [SerializeField] private GameObject atck1, atck2, atck3, panel;
+
     public int turno = 0;
     public bool isWinner;
 
@@ -32,15 +33,15 @@ public class BattleManager : MonoBehaviour
     {
         if (CheckHeroesConVida() && CheckEnemigosConVida())
         {
-            if (turno < listaHeroesEnBatalla.Count)
+            if (turno < listaHeroes.Count)
             {
-                TurnoDeAtaque(listaHeroesEnBatalla[turno]);
+                TurnoDeAtaque(listaHeroes[turno]);
             }
-            else if (turno >= listaHeroesEnBatalla.Count && turno < (listaEnemigosEnBatalla.Count + listaHeroesEnBatalla.Count))
+            else if (turno >= listaHeroes.Count && turno < (listaEnemigos.Count + listaHeroes.Count))
             {
-                TurnoDeAtaque(listaEnemigosEnBatalla[turno - listaHeroesEnBatalla.Count]);
+                TurnoDeAtaque(listaEnemigos[turno - listaHeroes.Count]);
             }
-            else if (turno >= listaEnemigosEnBatalla.Count)
+            else if (turno >= listaEnemigos.Count)
             {
                 turno = 0;
             }
@@ -116,7 +117,7 @@ public class BattleManager : MonoBehaviour
                 }
                 else
                 {
-                    listaHeroesEnBatalla.Remove(listaHeroesEnBatalla[turno]);
+                    listaHeroes.Remove(listaHeroes[turno]);
                     turno++;
                 }
             }
@@ -128,7 +129,7 @@ public class BattleManager : MonoBehaviour
                 }
                 else
                 {
-                    listaEnemigosEnBatalla.Remove(listaEnemigosEnBatalla[turno]);
+                    listaEnemigos.Remove(listaEnemigos[turno]);
                     turno++;
                 }
             }
@@ -144,24 +145,24 @@ public class BattleManager : MonoBehaviour
         
         turno = 0;
 
-        listaHeroesEnBatalla.Add(Heroe1);
-        listaHeroesEnBatalla.Add(Heroe2);
-        listaHeroesEnBatalla.Add(Heroe3);
-        listaHeroesEnBatalla.Add(Heroe4);
+        listaHeroes.Add(Heroe1);
+        listaHeroes.Add(Heroe2);
+        listaHeroes.Add(Heroe3);
+        listaHeroes.Add(Heroe4);
 
 
         foreach (Enemigo enemy in FindObjectsOfType<Enemigo>())
         {
-            listaEnemigosEnBatalla.Add(enemy);
+            listaEnemigos.Add(enemy);
         }
     }
 
     public bool CheckHeroesConVida()
     {
         int cant = 0;
-        foreach(Personaje p in listaHeroesEnBatalla)
+        foreach(Personaje p in listaHeroes)
         {
-            if(listaHeroesEnBatalla.Count > 0)
+            if(listaHeroes.Count > 0)
             {
                 if (p.vida >= 0)
                 {
@@ -170,7 +171,7 @@ public class BattleManager : MonoBehaviour
             }
         }
 
-        if (cant == listaHeroesEnBatalla.Count)
+        if (cant == listaHeroes.Count)
         {
             
             return true;
@@ -182,9 +183,9 @@ public class BattleManager : MonoBehaviour
     public bool CheckEnemigosConVida()
     {
         int cant = 0;
-        foreach (Personaje p in listaEnemigosEnBatalla)
+        foreach (Personaje p in listaEnemigos)
         {
-            if(listaEnemigosEnBatalla.Count > 0)
+            if(listaEnemigos.Count > 0)
             {
                 if (p.vida >= 0)
                 {
@@ -193,16 +194,12 @@ public class BattleManager : MonoBehaviour
             }
         }
 
-        if (cant == listaEnemigosEnBatalla.Count)
+        if (cant == listaEnemigos.Count)
         {
             
             return true;
         }
         
         return false;
-    }
-
-    public void TerminarBatalla() { 
-
     }
 }
