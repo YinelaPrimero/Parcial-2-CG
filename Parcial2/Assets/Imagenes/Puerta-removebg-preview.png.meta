@@ -1,0 +1,1113 @@
+fileFormatVersion: 2
+guid: 7580429f991c09d4ba78f69af4c80e85
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 488
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd486121d7526c449619836cc50c97b
+      internalID: -883977769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 495
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbcae211c542904e8eb3899e653fc84
+      internalID: 1223446600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 458
+        width: 9
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0e31d8c2beb2947b97da9268e9e13a
+      internalID: -106748287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 489
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31982c1af03dfbf46bfcc99b48342a67
+      internalID: -1969949102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 441
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dbf674afbeda747bb5dab8f0364a0d
+      internalID: 1594562972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 478
+        width: 84
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e606a1553c8a9164a9b0a47a8b4c1754
+      internalID: -1971259657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 422
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb5c9900c9b4ac43a534995ddf10a36
+      internalID: -693718570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 469
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477d5d87356748f428a89f8ea7e46d9f
+      internalID: 139954255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 469
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c805eec3a44d864c94a7ec6165ae2b9
+      internalID: 400600112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 380
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa80f3bc5ea82745a2df04b3f2e4b9f
+      internalID: -260124548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 378
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf7c72fbb1491642b7677117abe5ddb
+      internalID: -1180609467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 382
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defeabb1340501c49b550c435926e533
+      internalID: 1892413866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 379
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee10aba5e10dc94bb469bad6e92dfb2
+      internalID: 563379837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 378
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c7ab70ba8e1c847b76442beb225247
+      internalID: 611681101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 406
+        width: 131
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56224221f9d628a42b80b090580ee67e
+      internalID: -1688883199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 324
+        width: 65
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a881a31f971a04d9d490e47997ea43
+      internalID: 770061547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 324
+        width: 65
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05df99e6e904e1d4b8c3410539292594
+      internalID: 278253706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 324
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f9dd2d642118648a28df2d789955df
+      internalID: -343904597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 324
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edecd71696f73248bc4d339ac366728
+      internalID: -1037216578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 350
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c00441d1a09574eb088224f4af620a
+      internalID: 396465673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 337
+        width: 88
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b04b2a1bfcbc274598aa664539095f6
+      internalID: 1659245634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 350
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f399c9fd09ed3cd4f8a7729e337ae517
+      internalID: -1436648165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 267
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a11ee4a530665944b39f69f715f9d98
+      internalID: 820690343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 267
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481327fce8532ca488980ac724de1db8
+      internalID: -1028942736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 267
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bded63d39c2f7841b33d699d53f34f6
+      internalID: 742755294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 267
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5431597e5417e8b49bfc51c56a3d2748
+      internalID: 18838351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eae3078404dcf345b936956a5531e61
+      internalID: 703306743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 267
+        width: 112
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f849ff2de73bee6459fcaba6faca87e7
+      internalID: 2052552115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 282
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32a13345823d134d8d5903e9455e694
+      internalID: 1848554503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 206
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b58ae173d304e640a293dda86ee2bea
+      internalID: -1902616835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 206
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a417da1aa01ed5b4c8040dfc83465bf7
+      internalID: 1719803500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 210
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda2e8c9d313d1f4ca1f2541e9d4aaf0
+      internalID: 1766892777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 210
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4914ffb25e6289744bae45d2e163a10e
+      internalID: 1646638747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 210
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1482373571cdac4f8d9c5a5fa091835
+      internalID: 888640203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 210
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaab70615149b74c877f62e4924089d
+      internalID: -2121785765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 116
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6359d2a892da0ef4fbe8a1e0ffff1b63
+      internalID: -336282245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 116
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975326cb4ad662041bdc4116cd405767
+      internalID: 790741200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 116
+        width: 61
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59500552faaca1e41976d44eaa164a25
+      internalID: 1123029473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 116
+        width: 60
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8494eca7ab359b34babc7ae07a7f3847
+      internalID: -1570104726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 116
+        width: 61
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14efb369a3885a45947d85697af94bb
+      internalID: 1716066779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 446
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ffbdc57f48d0648a1d3ab7fd44c23c
+      internalID: 962630207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 22
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3397b9057a1f95498c987e22095326e
+      internalID: -490968973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 22
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9606dfc3fe671409f04c8e40bf464c
+      internalID: -557057851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 23
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697261683db70ea40be4def7528a636b
+      internalID: 505779616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 22
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717ecf8f4d5cdae4c93c8b961e0c7f9f
+      internalID: 195022018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Puerta-removebg-preview_0: -883977769
+      Puerta-removebg-preview_1: 1223446600
+      Puerta-removebg-preview_10: -1180609467
+      Puerta-removebg-preview_11: 1892413866
+      Puerta-removebg-preview_12: 563379837
+      Puerta-removebg-preview_13: 611681101
+      Puerta-removebg-preview_14: -1688883199
+      Puerta-removebg-preview_15: 770061547
+      Puerta-removebg-preview_16: 278253706
+      Puerta-removebg-preview_17: -343904597
+      Puerta-removebg-preview_18: -1037216578
+      Puerta-removebg-preview_19: 396465673
+      Puerta-removebg-preview_2: -106748287
+      Puerta-removebg-preview_20: 1659245634
+      Puerta-removebg-preview_21: -1436648165
+      Puerta-removebg-preview_22: 820690343
+      Puerta-removebg-preview_23: -1028942736
+      Puerta-removebg-preview_24: 742755294
+      Puerta-removebg-preview_25: 18838351
+      Puerta-removebg-preview_26: 703306743
+      Puerta-removebg-preview_27: 2052552115
+      Puerta-removebg-preview_28: 1848554503
+      Puerta-removebg-preview_29: -1902616835
+      Puerta-removebg-preview_3: -1969949102
+      Puerta-removebg-preview_30: 1719803500
+      Puerta-removebg-preview_31: 1766892777
+      Puerta-removebg-preview_32: 1646638747
+      Puerta-removebg-preview_33: 888640203
+      Puerta-removebg-preview_34: -2121785765
+      Puerta-removebg-preview_35: -336282245
+      Puerta-removebg-preview_36: 790741200
+      Puerta-removebg-preview_37: 1123029473
+      Puerta-removebg-preview_38: -1570104726
+      Puerta-removebg-preview_39: 1716066779
+      Puerta-removebg-preview_4: 1594562972
+      Puerta-removebg-preview_40: 962630207
+      Puerta-removebg-preview_41: -490968973
+      Puerta-removebg-preview_42: -557057851
+      Puerta-removebg-preview_43: 505779616
+      Puerta-removebg-preview_44: 195022018
+      Puerta-removebg-preview_5: -1971259657
+      Puerta-removebg-preview_6: -693718570
+      Puerta-removebg-preview_7: 139954255
+      Puerta-removebg-preview_8: 400600112
+      Puerta-removebg-preview_9: -260124548
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
