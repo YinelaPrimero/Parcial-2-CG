@@ -16,7 +16,7 @@ public class BattleManager : MonoBehaviour
     public Heroe Heroe4;
     public List<Heroe> listaHeroesEnBatalla = new List<Heroe>();
     public List<Enemigo> listaEnemigosEnBatalla = new List<Enemigo>();
-    [SerializeField] private GameObject mensaje1, mensaje2, mensaje3/*, pantallaGanador, pantallaPerdedor*/;
+    [SerializeField] private GameObject atck1, atck2, atck3, panel;
     public int turno = 0;
     public bool isWinner;
 
@@ -49,9 +49,9 @@ public class BattleManager : MonoBehaviour
         {
             Debug.Log("Ganador");
             isWinner = true;
-            mensaje1.SetActive(false);
-            mensaje2.SetActive(false);
-            mensaje3.SetActive(false);
+            atck1.SetActive(false);
+            atck2.SetActive(false);
+            atck3.SetActive(false);
 
             //pantallaGanador.SetActive(true);
         }
@@ -60,9 +60,9 @@ public class BattleManager : MonoBehaviour
         {
             Debug.Log("Perdedor");
             isWinner = false;
-            mensaje1.SetActive(false);
-            mensaje2.SetActive(false);
-            mensaje3.SetActive(false);
+            atck1.SetActive(false);
+            atck2.SetActive(false);
+            atck3.SetActive(false);
 
             //pantallaPerdedor.SetActive(true);
         }
@@ -73,43 +73,45 @@ public class BattleManager : MonoBehaviour
     {
         if(player != null)
         {
+            panel.SetActive(true);
             if (player.GetType() == typeof(Heroe))
             {
                 if (player.isDead == false)
                 {
                     if (player.listaHabilidades.Length == 1)
                     {
-                        mensaje1.SetActive(true);
-                        foreach (Boton boton in mensaje1.GetComponentsInChildren<Boton>())
+                        atck1.SetActive(true);
+                        foreach (Boton boton in atck1.GetComponentsInChildren<Boton>())
                         {
                             boton.personaje = player;
                         }
 
-                        mensaje2.SetActive(false);
-                        mensaje3.SetActive(false);
+                        atck2.SetActive(false);
+                        atck3.SetActive(false);
+                        
                     }
 
                     else if (player.listaHabilidades.Length == 2)
                     {
-                        mensaje1.SetActive(false);
-                        mensaje2.SetActive(true);
-                        foreach (Boton boton in mensaje2.GetComponentsInChildren<Boton>())
+                        atck1.SetActive(false);
+                        atck2.SetActive(true);
+                        foreach (Boton boton in atck2.GetComponentsInChildren<Boton>())
                         {
                             boton.personaje = player;
                         }
-                        mensaje3.SetActive(false);
+                        atck3.SetActive(false);
                     }
 
                     else if (player.listaHabilidades.Length == 3)
                     {
-                        mensaje1.SetActive(false);
-                        mensaje2.SetActive(false);
-                        mensaje3.SetActive(true);
-                        foreach (Boton boton in mensaje3.GetComponentsInChildren<Boton>())
+                        atck1.SetActive(false);
+                        atck2.SetActive(false);
+                        atck3.SetActive(true);
+                        foreach (Boton boton in atck3.GetComponentsInChildren<Boton>())
                         {
                             boton.personaje = player;
                         }
-                        mensaje3.GetComponentInChildren<Boton>().personaje = player;
+                        atck3.GetComponentInChildren<Boton>().personaje = player;
                     }
                 }
                 else
@@ -141,15 +143,6 @@ public class BattleManager : MonoBehaviour
     {
         
         turno = 0;
-        mensaje1.SetActive(false);
-        mensaje2.SetActive(false);
-        mensaje3.SetActive(false);
-
-        //pantallaGanador.SetActive(false);
-        //pantallaPerdedor.SetActive(false);
-        
-        //enemySlot = Instantiate(AlmacenarEnemigo.enemigoAlmacenado, new Vector3(5, -2, 0), Quaternion.Euler(0, 0, 0));
-        
 
         listaHeroesEnBatalla.Add(Heroe1);
         listaHeroesEnBatalla.Add(Heroe2);
