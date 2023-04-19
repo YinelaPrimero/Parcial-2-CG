@@ -80,6 +80,7 @@ public class DialogueEnemigos : MonoBehaviour
             
 // Aca se haria la activacion de ataque
             BattleManager.SetActive(true);
+            
             Time.timeScale = 1f;
         }
     }
