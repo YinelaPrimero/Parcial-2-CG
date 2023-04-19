@@ -849,7 +849,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.22
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1033,13 +1033,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Escena: Juego
-  typingTime: 0.5
-  charsToPlay: 3
-  npcVoz: {fileID: 8300000, guid: 61c261375805aa14fb5910d94cf19768, type: 3}
-  dialoguePanel: {fileID: 296462254}
-  dialogueText: {fileID: 832372940}
-  dialogueLines:
-  - Click izquierdo para teletransportarse al bosque.
 --- !u!61 &289545004
 BoxCollider2D:
   m_ObjectHideFlags: 0
