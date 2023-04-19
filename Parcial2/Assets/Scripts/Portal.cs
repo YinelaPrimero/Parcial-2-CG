@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Portal : MonoBehaviour
 {
      private bool isPlayerInRange;
+     public string Escena;
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,7 +27,7 @@ public class Portal : MonoBehaviour
     void Update()
     {
         if(isPlayerInRange && Input.GetButtonDown("Fire1")){
-            SceneManager.LoadScene("Juego");
+            SceneManager.LoadScene(""+Escena+"");
         }
     }
 }
