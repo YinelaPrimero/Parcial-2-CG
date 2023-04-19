@@ -15,52 +15,42 @@ public class Inventario : MonoBehaviour
     {
         if(collider.CompareTag("Pocion"))
         {
-            if(item[0].GetComponent<Image>().enabled == false)
-            {
-                  item[0].GetComponent<Image>().enabled = true;
-                  item[0].GetComponent<Image>().sprite = collider.GetComponent<SpriteRenderer>().sprite;
-                   
-            }
+            item[0].SetActive(true);
             itemInventario["Pociones"]++;
-            Destroy(collider.GetComponent<GameObject>());
+            Destroy(collider.gameObject);
         }
         else if(collider.CompareTag("Dinero"))   
         {
-            if(item[1].GetComponent<Image>().enabled == false)
-            {
-                  item[1].GetComponent<Image>().enabled = true;
-                  item[1].GetComponent<Image>().sprite = collider.GetComponent<SpriteRenderer>().sprite;
-                   
-            }
-
-            itemInventario["Dinero"]++;
-            Destroy(collider.GetComponent<GameObject>());
+        
+            item[1].SetActive(true);
+            itemInventario["Dinero"]+=100;
+            Destroy(collider.gameObject);
+        }
+        else if(collider.CompareTag("Dinero3"))   
+        {
+        
+            item[1].SetActive(true);
+            itemInventario["Dinero"]+= 250;
+            Destroy(collider.gameObject);
+        }
+        else if(collider.CompareTag("Dinero4"))   
+        {
+        
+            item[1].SetActive(true);
+            itemInventario["Dinero"]+= 350;
+            Destroy(collider.gameObject);
         }
 
         else if(collider.CompareTag("Cofre"))   
         {
-            if(item[2].GetComponent<Image>().enabled == false)
-            {
-                  item[2].GetComponent<Image>().enabled = true;
-                  item[2].GetComponent<Image>().sprite = collider.GetComponent<SpriteRenderer>().sprite;
-                   
-            }
-
+            item[2].SetActive(true);
             itemInventario["Cofres"]++;
-            Destroy(collider.GetComponent<GameObject>());
+            Destroy(collider.gameObject);
         } 
-
-        
 
         else if(collider.CompareTag("Arma"))   
         {
-            if(item[3].GetComponent<Image>().enabled == false)
-            {
-                  item[3].GetComponent<Image>().enabled = true;
-                  item[3].GetComponent<Image>().sprite = collider.GetComponent<SpriteRenderer>().sprite;
-                   
-            }
-
+            item[3].SetActive(true);
             itemInventario["Armas"]++;
             Destroy(collider.GetComponent<GameObject>());
         }
@@ -68,7 +58,7 @@ public class Inventario : MonoBehaviour
         else if(collider.CompareTag("Escapulario"))   
         {
             itemInventario["Escapulario"]++;
-            Destroy(collider.GetComponent<GameObject>());
+            Destroy(collider.gameObject);
         }
      
     }
@@ -83,10 +73,6 @@ public class Inventario : MonoBehaviour
             {"Armas", 0},
             {"Escapulario", 0}
         };
-        textos[0].text=" ";
-        textos[1].text=" ";
-        textos[2].text=" ";
-        textos[3].text=" ";
 
     }
 

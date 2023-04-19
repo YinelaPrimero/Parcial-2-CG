@@ -10,6 +10,8 @@ TagManager:
   - Pocion
   - Arma
   - Cofre
+  - Dinero3
+  - Dinero4
   layers:
   - Default
   - TransparentFX
