@@ -22,6 +22,7 @@ public class DialogueEnemigos : MonoBehaviour
 
     private bool isPlayerInRange;
     private bool didDialogueStart;
+    private bool didDialogueFinish;
     private int lineIndex;
 
 
@@ -34,7 +35,7 @@ public class DialogueEnemigos : MonoBehaviour
 
     void Update()
     {
-        if(isPlayerInRange && !didDialogueStart){
+        if(isPlayerInRange && !didDialogueStart && !didDialogueFinish){
             StartDialogue();
         }
 
@@ -71,8 +72,10 @@ public class DialogueEnemigos : MonoBehaviour
         }
         else
         {
+            didDialogueFinish = true;
             didDialogueStart = false;
             dialoguePanel.SetActive(false);
+            
 // Aca se haria la activacion de ataque
 
             Time.timeScale = 1f;
