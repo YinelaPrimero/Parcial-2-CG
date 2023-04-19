@@ -5,6 +5,8 @@ using TMPro;
 
 public class DialogueEnemigos : MonoBehaviour
 {
+
+    [SerializeField] private GameObject BattleManager;
     [SerializeField] private float typingTime;
     [SerializeField] private int charsToPlay;
 
@@ -77,7 +79,7 @@ public class DialogueEnemigos : MonoBehaviour
             dialoguePanel.SetActive(false);
             
 // Aca se haria la activacion de ataque
-
+            BattleManager.SetActive(true);
             Time.timeScale = 1f;
         }
     }

@@ -828,6 +828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f335b44b2c8118d48928497f1d6f106f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BattleManager: {fileID: 185042735}
   typingTime: 0.05
   charsToPlay: 3
   npcVoz: {fileID: 8300000, guid: 61c261375805aa14fb5910d94cf19768, type: 3}
@@ -1844,7 +1845,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &185042736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4888,6 +4889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f335b44b2c8118d48928497f1d6f106f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BattleManager: {fileID: 185042735}
   typingTime: 0.05
   charsToPlay: 3
   npcVoz: {fileID: 8300000, guid: 61c261375805aa14fb5910d94cf19768, type: 3}
@@ -8587,7 +8589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1029786517
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9381,7 +9383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1142442493
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9418,7 +9420,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1149182368
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12403,7 +12405,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1655171094
 Transform:
   m_ObjectHideFlags: 0
@@ -12530,6 +12532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f335b44b2c8118d48928497f1d6f106f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BattleManager: {fileID: 185042735}
   typingTime: 0.05
   charsToPlay: 3
   npcVoz: {fileID: 8300000, guid: 61c261375805aa14fb5910d94cf19768, type: 3}
@@ -13218,7 +13221,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1768676102
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15273,6 +15276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f335b44b2c8118d48928497f1d6f106f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BattleManager: {fileID: 185042735}
   typingTime: 0.05
   charsToPlay: 3
   npcVoz: {fileID: 8300000, guid: 61c261375805aa14fb5910d94cf19768, type: 3}
