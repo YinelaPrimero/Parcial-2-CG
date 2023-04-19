@@ -666,6 +666,7 @@ GameObject:
   - component: {fileID: 98021788}
   - component: {fileID: 98021787}
   - component: {fileID: 98021785}
+  - component: {fileID: 98021789}
   m_Layer: 0
   m_Name: Enemigo3
   m_TagString: Untagged
@@ -787,6 +788,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &98021789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98021783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa637c6f2d4bb3c4db0dd8474157e88e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaHabilidades: []
+  vida: 120
+  fuerza: 12
+  indexResistencia: 23
+  isDead: 0
+  battleManager: {fileID: 0}
+  rivales: []
+  animator: {fileID: 0}
+  Heroe1: {fileID: 1455097475}
+  Heroe2: {fileID: 212939642}
+  Heroe3: {fileID: 1194733732}
+  Heroe4: {fileID: 932334481}
+  recompensa: {fileID: 0}
+  sueltaEscapulario: 0
 --- !u!1 &99409024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,6 +1722,10 @@ GameObject:
   - component: {fileID: 212939637}
   - component: {fileID: 212939636}
   - component: {fileID: 212939635}
+  - component: {fileID: 212939642}
+  - component: {fileID: 212939641}
+  - component: {fileID: 212939640}
+  - component: {fileID: 212939639}
   m_Layer: 0
   m_Name: JUGDR2
   m_TagString: Untagged
@@ -1835,6 +1866,80 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &212939639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212939633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5b3a18f01f6bc42afbb53e8dd36f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personaje: {fileID: 212939642}
+  indexDado1: 10
+  indexDado2: 4
+  habilityTarget: []
+  battleManager: {fileID: 0}
+--- !u!114 &212939640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212939633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5b3a18f01f6bc42afbb53e8dd36f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personaje: {fileID: 212939642}
+  indexDado1: 10
+  indexDado2: 4
+  habilityTarget: []
+  battleManager: {fileID: 0}
+--- !u!114 &212939641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212939633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5b3a18f01f6bc42afbb53e8dd36f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personaje: {fileID: 212939642}
+  indexDado1: 10
+  indexDado2: 0
+  habilityTarget: []
+  battleManager: {fileID: 0}
+--- !u!114 &212939642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212939633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0acf3c25228f348b853325146114e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaHabilidades:
+  - {fileID: 212939641}
+  - {fileID: 212939640}
+  - {fileID: 212939639}
+  vida: 100
+  fuerza: 23
+  indexResistencia: 47
+  isDead: 0
+  battleManager: {fileID: 0}
+  rivales: []
+  animator: {fileID: 0}
 --- !u!1 &214089076
 GameObject:
   m_ObjectHideFlags: 0
@@ -6982,6 +7087,8 @@ GameObject:
   - component: {fileID: 932334478}
   - component: {fileID: 932334477}
   - component: {fileID: 932334476}
+  - component: {fileID: 932334481}
+  - component: {fileID: 932334480}
   m_Layer: 0
   m_Name: JUGDR4
   m_TagString: Untagged
@@ -7122,6 +7229,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &932334480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932334474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5b3a18f01f6bc42afbb53e8dd36f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personaje: {fileID: 932334481}
+  indexDado1: 6
+  indexDado2: 8
+  habilityTarget: []
+  battleManager: {fileID: 0}
+--- !u!114 &932334481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932334474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0acf3c25228f348b853325146114e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaHabilidades:
+  - {fileID: 932334480}
+  vida: 100
+  fuerza: 19
+  indexResistencia: 35
+  isDead: 0
+  battleManager: {fileID: 0}
+  rivales: []
+  animator: {fileID: 0}
 --- !u!1 &940576993
 GameObject:
   m_ObjectHideFlags: 0
@@ -8810,6 +8955,8 @@ GameObject:
   - component: {fileID: 1194733729}
   - component: {fileID: 1194733728}
   - component: {fileID: 1194733727}
+  - component: {fileID: 1194733732}
+  - component: {fileID: 1194733731}
   m_Layer: 0
   m_Name: JUGDR3
   m_TagString: Untagged
@@ -8950,6 +9097,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1194733731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194733725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5b3a18f01f6bc42afbb53e8dd36f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personaje: {fileID: 1194733732}
+  indexDado1: 10
+  indexDado2: 6
+  habilityTarget: []
+  battleManager: {fileID: 0}
+--- !u!114 &1194733732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194733725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0acf3c25228f348b853325146114e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaHabilidades:
+  - {fileID: 1194733731}
+  vida: 100
+  fuerza: 19
+  indexResistencia: 50
+  isDead: 0
+  battleManager: {fileID: 0}
+  rivales: []
+  animator: {fileID: 0}
 --- !u!1 &1197562576
 GameObject:
   m_ObjectHideFlags: 0
@@ -10538,6 +10723,10 @@ GameObject:
   - component: {fileID: 1455097470}
   - component: {fileID: 1455097469}
   - component: {fileID: 1455097468}
+  - component: {fileID: 1455097475}
+  - component: {fileID: 1455097474}
+  - component: {fileID: 1455097473}
+  - component: {fileID: 1455097472}
   m_Layer: 0
   m_Name: JUGDR1
   m_TagString: Untagged
@@ -10678,6 +10867,82 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1455097472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455097466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5b3a18f01f6bc42afbb53e8dd36f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personaje: {fileID: 1455097475}
+  indexDado1: 6
+  indexDado2: 6
+  habilityTarget: []
+  battleManager: {fileID: 0}
+--- !u!114 &1455097473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455097466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5b3a18f01f6bc42afbb53e8dd36f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personaje: {fileID: 1455097475}
+  indexDado1: 10
+  indexDado2: 4
+  habilityTarget: []
+  battleManager: {fileID: 0}
+--- !u!114 &1455097474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455097466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0acf3c25228f348b853325146114e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaHabilidades:
+  - {fileID: 1455097473}
+  - {fileID: 1455097472}
+  vida: 100
+  fuerza: 17
+  indexResistencia: 38
+  isDead: 0
+  battleManager: {fileID: 0}
+  rivales: []
+  animator: {fileID: 0}
+--- !u!114 &1455097475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455097466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0acf3c25228f348b853325146114e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaHabilidades: []
+  vida: 0
+  fuerza: 0
+  indexResistencia: 0
+  isDead: 0
+  battleManager: {fileID: 0}
+  rivales: []
+  animator: {fileID: 0}
 --- !u!1 &1468797670
 GameObject:
   m_ObjectHideFlags: 0
@@ -11549,6 +11814,7 @@ GameObject:
   - component: {fileID: 1655171095}
   - component: {fileID: 1655171099}
   - component: {fileID: 1655171100}
+  - component: {fileID: 1655171101}
   m_Layer: 0
   m_Name: Enemigo2
   m_TagString: Untagged
@@ -11787,6 +12053,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1655171101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655171093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa637c6f2d4bb3c4db0dd8474157e88e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaHabilidades:
+  - {fileID: 0}
+  vida: 120
+  fuerza: 18
+  indexResistencia: 21
+  isDead: 0
+  battleManager: {fileID: 0}
+  rivales: []
+  animator: {fileID: 0}
+  Heroe1: {fileID: 1455097475}
+  Heroe2: {fileID: 212939642}
+  Heroe3: {fileID: 1194733732}
+  Heroe4: {fileID: 932334481}
+  recompensa: {fileID: 0}
+  sueltaEscapulario: 0
 --- !u!1 &1655522060
 GameObject:
   m_ObjectHideFlags: 0
@@ -14138,6 +14431,7 @@ GameObject:
   - component: {fileID: 2136085704}
   - component: {fileID: 2136085703}
   - component: {fileID: 2136085702}
+  - component: {fileID: 2136085705}
   m_Layer: 0
   m_Name: Enemigo1
   m_TagString: Untagged
@@ -14259,6 +14553,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2136085705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136085700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa637c6f2d4bb3c4db0dd8474157e88e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaHabilidades: []
+  vida: 120
+  fuerza: 15
+  indexResistencia: 13
+  isDead: 0
+  battleManager: {fileID: 0}
+  rivales: []
+  animator: {fileID: 0}
+  Heroe1: {fileID: 1455097475}
+  Heroe2: {fileID: 212939642}
+  Heroe3: {fileID: 1194733732}
+  Heroe4: {fileID: 932334481}
+  recompensa: {fileID: 0}
+  sueltaEscapulario: 0
 --- !u!1 &2141051545
 GameObject:
   m_ObjectHideFlags: 0

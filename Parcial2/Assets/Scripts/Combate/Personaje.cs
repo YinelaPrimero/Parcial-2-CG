@@ -7,10 +7,10 @@ using UnityEngine.UI;
 
 public class Personaje : MonoBehaviour
 {
-    public string nombre;
+    //public string nombre;
     public Habilidad[] listaHabilidades;
     public float vida, fuerza;
-    public string armadura;
+    //public string armadura;
     public float indexResistencia;
     public bool isDead;
     public BattleManager battleManager;
@@ -25,6 +25,7 @@ public class Personaje : MonoBehaviour
         isDead = false;
         battleManager = FindObjectOfType<BattleManager>();
     }
+
     public void LanzarHabilidad(int index)
     {
         listaHabilidades[index].Atacar();

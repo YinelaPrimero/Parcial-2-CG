@@ -11,7 +11,7 @@ public class Enemigo : Personaje
     public Heroe Heroe2;
     public Heroe Heroe3;
     public Heroe Heroe4;
-    [SerializeField] private int cantPociones, cantCofres, cantOro;
+    public GameObject recompensa;
     [SerializeField] private bool sueltaEscapulario;
 
 
@@ -30,15 +30,15 @@ public class Enemigo : Personaje
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.collider.CompareTag("Player"))
-        {
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+       // if (collision.collider.CompareTag("Player"))
+       // {
             //AlmacenarEnemigo.AlmacenarEsteEnemigo(gameObject);
-            SceneManager.LoadScene("Combate");
-            Destroy(gameObject);
-        }
-    }
+        //    SceneManager.LoadScene("Combate");
+        //    Destroy(gameObject);
+        //}
+    //}
 
    // public void SoltarDrop()
    // {
