@@ -25,7 +25,7 @@ public class BattleManager : MonoBehaviour
     void Start()
     {
         isWinner = false;
-        //HOLAAAAAAA
+        //HOLAAAAAAA    
         IniciarBatalla();
     }
 
@@ -36,10 +36,12 @@ public class BattleManager : MonoBehaviour
         {
             if (turno < listaHeroes.Count)
             {
+            
                 TurnoDeAtaque(listaHeroes[turno]);
             }
             else if (turno >= listaHeroes.Count && turno < (listaEnemigos.Count + listaHeroes.Count))
             {
+             
                 TurnoDeAtaque(listaEnemigos[turno - listaHeroes.Count]);
             }
             else if (turno >= listaEnemigos.Count)
@@ -78,10 +80,13 @@ public class BattleManager : MonoBehaviour
             panel.SetActive(true);
             if (player.GetType() == typeof(Heroe))
             {
+                
                 if (player.isDead == false)
                 {
+                    
                     if (player.listaHabilidades.Length == 1)
                     {
+                        Debug.Log("a");
                         atck1.SetActive(true);
                         foreach (Boton boton in atck1.GetComponentsInChildren<Boton>())
                         {
