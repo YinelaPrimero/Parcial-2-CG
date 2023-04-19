@@ -25,6 +25,7 @@ public class BattleManager : MonoBehaviour
     void Start()
     {
         isWinner = false;
+        //HOLAAAAAAA
         IniciarBatalla();
     }
 
