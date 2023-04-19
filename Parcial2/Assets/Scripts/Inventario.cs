@@ -52,7 +52,7 @@ public class Inventario : MonoBehaviour
         {
             item[3].SetActive(true);
             itemInventario["Armas"]++;
-            Destroy(collider.GetComponent<GameObject>());
+            Destroy(collider.gameObject);
         }
 
         else if(collider.CompareTag("Escapulario"))   
