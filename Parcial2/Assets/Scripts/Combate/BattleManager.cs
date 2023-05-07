@@ -86,7 +86,7 @@ public class BattleManager : MonoBehaviour
                     
                     if (player.listaHabilidades.Length == 1)
                     {
-                        Debug.Log("a");
+                        
                         atck1.SetActive(true);
                         foreach (Boton boton in atck1.GetComponentsInChildren<Boton>())
                         {
@@ -100,6 +100,7 @@ public class BattleManager : MonoBehaviour
 
                     else if (player.listaHabilidades.Length == 2)
                     {
+                        
                         atck1.SetActive(false);
                         atck2.SetActive(true);
                         foreach (Boton boton in atck2.GetComponentsInChildren<Boton>())
@@ -119,6 +120,7 @@ public class BattleManager : MonoBehaviour
                             boton.personaje = player;
                         }
                         atck3.GetComponentInChildren<Boton>().personaje = player;
+                
                     }
                 }
                 else
