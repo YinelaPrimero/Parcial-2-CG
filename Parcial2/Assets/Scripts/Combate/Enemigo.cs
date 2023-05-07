@@ -40,17 +40,9 @@ public class Enemigo : Personaje
         //}
     //}
 
-   // public void SoltarDrop()
-   // {
-   //     jugador.cantidadPociones += cantPociones;            
-   //     jugador.cantidadCofres += cantCofres;        
-//
-  //      jugador.dinero += cantOro;
-//
-    //      if (sueltaEscapulario == true)
-      //  {
-       //     jugador.inventario.Add("Escapulario de Elixe", 1);
-       // }
-        
-  //  }
+   public void ActivarRecompensa()
+    {
+      recomoensa.SetActive(true); 
+      
+    }
 }

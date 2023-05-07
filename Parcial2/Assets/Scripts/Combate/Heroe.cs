@@ -10,8 +10,7 @@ public class Heroe : Personaje
         foreach (Enemigo enemy in FindObjectsOfType<Enemigo>())
         {
             rivales.Add(enemy);
-        
-    }
+        }
     }
     // Update is called once per frame
     void Update()
